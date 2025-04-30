@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.best-seller {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.best-seller img {
+  width: 100%;
+  height: auto;
+}
+
+.name-of-p {
+  margin-bottom: 5px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.price {
+  color: green;
+  font-weight: bold;
+}
+
+.category {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
